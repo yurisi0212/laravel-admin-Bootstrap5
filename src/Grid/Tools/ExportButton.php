@@ -73,7 +73,7 @@ SCRIPT;
 
 <div class="btn-group pull-right" style="margin-right: 10px">
     <a href="{$this->grid->getExportUrl('all')}" target="_blank" class="btn btn-sm btn-twitter" title="{$trans['export']}"><i class="fa fa-download"></i><span class="hidden-xs"> {$trans['export']}</span></a>
-    <button type="button" class="btn btn-sm btn-twitter dropdown-toggle" data-toggle="dropdown">
+    <button type="button" class="btn btn-sm btn-twitter dropdown-toggle" data-bs-toggle="dropdown">
         <span class="caret"></span>
         <span class="sr-only">Toggle Dropdown</span>
     </button>

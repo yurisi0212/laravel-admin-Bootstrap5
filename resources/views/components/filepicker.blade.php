@@ -4,7 +4,7 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content" style="border-radius: 5px;">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <h4 class="modal-title">{{ admin_trans('admin.choose') }}</h4>
@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">{{ admin_trans('admin.cancel') }}</button>
+                    <button type="button" class="btn btn-default" data-bs-dismiss="modal">{{ admin_trans('admin.cancel') }}</button>
                     <button type="button" class="btn btn-primary submit">{{ admin_trans('admin.submit') }}</button>
                 </div>
             </div>
